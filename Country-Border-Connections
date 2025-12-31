@@ -1,0 +1,1437 @@
+(*Countries graphically organized by border shared borders*)
+countryConnections = {
+   {"Afghanistan",
+    {"Afghanistan" \[UndirectedEdge] "China",
+     "Afghanistan" \[UndirectedEdge] "Iran",
+     "Afghanistan" \[UndirectedEdge] "Pakistan",
+     "Afghanistan" \[UndirectedEdge] "Tajikistan",
+     "Afghanistan" \[UndirectedEdge] "Turkmenistan",
+     "Afghanistan" \[UndirectedEdge] "Uzbekistan"}
+    },
+   
+   {"Albania",
+    {"Albania" \[UndirectedEdge] "Greece",
+     "Albania" \[UndirectedEdge] "Kosovo",
+     "Albania" \[UndirectedEdge] "Montenegro",
+     "Albania" \[UndirectedEdge] "North Macedonia"}
+    },
+   
+   {"Algeria",
+    {"Algeria" \[UndirectedEdge] "Libya",
+     "Algeria" \[UndirectedEdge] "Mali",
+     "Algeria" \[UndirectedEdge] "Mauritania",
+     "Algeria" \[UndirectedEdge] "Morocco",
+     "Algeria" \[UndirectedEdge] "Niger",
+     "Algeria" \[UndirectedEdge] "Tunisia",
+     "Algeria" \[UndirectedEdge] "Western Sahara"}
+    },
+   
+   {"American Samoa",
+    {}
+    },
+   
+   {"Andorra",
+    {"Andorra" \[UndirectedEdge] "France",
+     "Andorra" \[UndirectedEdge] "Spain"}
+    },
+   
+   {"Angola",
+    {"Angola" \[UndirectedEdge] "Republic of the Congo",
+     "Angola" \[UndirectedEdge] "Democratic Republic of the Congo",
+     "Angola" \[UndirectedEdge] "Zambia",
+     "Angola" \[UndirectedEdge] "Namibia"}
+    },
+   
+   {"Anguilla",
+    {}
+    },
+   
+   {"Antigua and Barbuda",
+    {}
+    },
+   
+   
+   {"Argentina",
+    {"Argentina" \[UndirectedEdge] "Bolivia",
+     "Argentina" \[UndirectedEdge] "Brazil",
+     "Argentina" \[UndirectedEdge] "Chile",
+     "Argentina" \[UndirectedEdge] "Paraguay",
+     "Argentina" \[UndirectedEdge] "Uruguay"}
+    },
+   
+   {"Armenia",
+    {"Armenia" \[UndirectedEdge] "Azerbaijan",
+     "Armenia" \[UndirectedEdge] "Georgia",
+     "Armenia" \[UndirectedEdge] "Iran",
+     "Armenia" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Aruba",
+    {}
+    },
+   
+   {"Australia",
+    {}
+    },
+   
+   {"Austria",
+    {"Austria" \[UndirectedEdge] "Czech Republic",
+     "Austria" \[UndirectedEdge] "Germany",
+     "Austria" \[UndirectedEdge] "Hungary",
+     "Austria" \[UndirectedEdge] "Italy",
+     "Austria" \[UndirectedEdge] "Liechtenstein",
+     "Austria" \[UndirectedEdge] "Slovakia",
+     "Austria" \[UndirectedEdge] "Slovenia",
+     "Austria" \[UndirectedEdge] "Switzerland"}
+    },
+   
+   {"Azerbaijan",
+    {"Azerbaijan" \[UndirectedEdge] "Armenia",
+     "Azerbaijan" \[UndirectedEdge] "Georgia",
+     "Azerbaijan" \[UndirectedEdge] "Iran",
+     "Azerbaijan" \[UndirectedEdge] "Russia",
+     "Azerbaijan" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Bahamas",
+    {}
+    },
+   
+   {"Bahrain",
+    {"Bahrain" \[UndirectedEdge] "Saudi Arabia"}
+    },
+   
+   {"Bangladesh",
+    {"Bangladesh" \[UndirectedEdge] "India",
+     "Bangladesh" \[UndirectedEdge] "Myanmar"}
+    },
+   
+   {"Barbados",
+    {}
+    },
+   
+   {"Belarus",
+    {"Belarus" \[UndirectedEdge] "Latvia",
+     "Belarus" \[UndirectedEdge] "Lithuania",
+     "Belarus" \[UndirectedEdge] "Poland",
+     "Belarus" \[UndirectedEdge] "Russia",
+     "Belarus" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Belgium",
+    {"Belgium" \[UndirectedEdge] "France",
+     "Belgium" \[UndirectedEdge] "Germany",
+     "Belgium" \[UndirectedEdge] "Luxembourg",
+     "Belgium" \[UndirectedEdge] "Netherlands"}
+    },
+   
+   
+   {"Belize",
+    {"Belize" \[UndirectedEdge] "Guatemala",
+     "Belize" \[UndirectedEdge] "Mexico"}
+    },
+   
+   {"Benin",
+    {"Benin" \[UndirectedEdge] "Burkina Faso",
+     "Benin" \[UndirectedEdge] "Niger",
+     "Benin" \[UndirectedEdge] "Nigeria",
+     "Benin" \[UndirectedEdge] "Togo"
+     }
+    },
+   
+   {"Bermuda",
+    {}
+    },
+   
+   {"Bhutan",
+    {"Bhutan" \[UndirectedEdge] "China",
+     "Bhutan" \[UndirectedEdge] "India"}
+    },
+   
+   {"Bolivia",
+    {"Bolivia" \[UndirectedEdge] "Argentina",
+     "Bolivia" \[UndirectedEdge] "Brazil",
+     "Bolivia" \[UndirectedEdge] "Chile",
+     "Bolivia" \[UndirectedEdge] "Paraguay",
+     "Bolivia" \[UndirectedEdge] "Peru"}
+    },
+   
+   {"Bosnia and Herzegovina",
+    {"Bosnia and Herzegovina" \[UndirectedEdge] "Croatia",
+     "Bosnia and Herzegovina" \[UndirectedEdge] "Montenegro", 
+     "Bosnia and Herzegovina" \[UndirectedEdge] "Serbia"}
+    },
+   
+   {"Botswana",
+    {"Botswana" \[UndirectedEdge] "Namibia",
+     "Botswana" \[UndirectedEdge] "South Africa",
+     "Botswana" \[UndirectedEdge] "Zambia",
+     "Botswana" \[UndirectedEdge] "Zimbabwe"}
+    },
+   
+   {"Brazil",
+    {"Brazil" \[UndirectedEdge] "Argentina",
+     "Brazil" \[UndirectedEdge] "Bolivia",
+     "Brazil" \[UndirectedEdge] "Colombia",
+     "Brazil" \[UndirectedEdge] "Guyana",
+     "Brazil" \[UndirectedEdge] "Paraguay",
+     "Brazil" \[UndirectedEdge] "Peru",
+     "Brazil" \[UndirectedEdge] "Suriname",
+     "Brazil" \[UndirectedEdge] "Uruguay",
+     "Brazil" \[UndirectedEdge] "Venezuela"}
+    },
+   
+   {"British Virgin Islands",
+    {}
+    },
+   
+   {"Bulgaria",
+    {"Bulgaria" \[UndirectedEdge] "Greece",
+     "Bulgaria" \[UndirectedEdge] "North Macedonia",
+     "Bulgaria" \[UndirectedEdge] "Romania",
+     "Bulgaria" \[UndirectedEdge] "Serbia",
+     "Bulgaria" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Burkina Faso",
+    {"Burkina Faso" \[UndirectedEdge] "Benin",
+     "Burkina Faso" \[UndirectedEdge] "Côte d'Ivoire",
+     "Burkina Faso" \[UndirectedEdge] "Ghana",
+     "Burkina Faso" \[UndirectedEdge] "Mali",
+     "Burkina Faso" \[UndirectedEdge] "Niger",
+     "Burkina Faso" \[UndirectedEdge] "Togo"}
+    },
+   
+   {"Burundi",
+    {"Burundi" \[UndirectedEdge] "Democratic Republic of the Congo",
+     "Burundi" \[UndirectedEdge] "Rwanda", 
+     "Burundi" \[UndirectedEdge] "Tanzania"}
+    },
+   
+   {"Cameroon",
+    {"Cameroon" \[UndirectedEdge] "Central African Republic",
+     "Cameroon" \[UndirectedEdge] "Chad",
+     "Cameroon" \[UndirectedEdge] "Equatorial Guinea",
+     "Cameroon" \[UndirectedEdge] "Gabon",
+     "Cameroon" \[UndirectedEdge] "Nigeria",
+     "Cameroon" \[UndirectedEdge] "Republic of the Congo"}
+    },
+   
+   {"Cape Verde",
+    {}
+    },
+   
+   {"Cayman Islands",
+    {}
+    },
+   
+   {"Central African Republic",
+    {"Central African Republic" \[UndirectedEdge] "Cameroon",
+     "Central African Republic" \[UndirectedEdge] "Chad", 
+     "Central African Republic" \[UndirectedEdge] 
+      "Republic of the Congo", 
+     "Central African Republic" \[UndirectedEdge] 
+      "Democratic Republic of the Congo", 
+     "Central African Republic" \[UndirectedEdge] "South Sudan",
+     "Central African Republic" \[UndirectedEdge] "Sudan"}
+    },
+   
+   {"Chad",
+    {"Chad" \[UndirectedEdge] "Cameroon",
+     "Chad" \[UndirectedEdge] "Central African Republic",
+     "Chad" \[UndirectedEdge] "Libya",
+     "Chad" \[UndirectedEdge] "Niger",
+     "Chad" \[UndirectedEdge] "Nigeria",
+     "Chad" \[UndirectedEdge] "Sudan"}
+    },
+   
+   
+   {"Chile",
+    {"Chile" \[UndirectedEdge] "Argentina",
+     "Chile" \[UndirectedEdge] "Bolivia",
+     "Chile" \[UndirectedEdge] "Peru"}
+    },
+   
+   {"China",
+    {"China" \[UndirectedEdge] "Afghanistan",
+     "China" \[UndirectedEdge] "Bhutan",
+     "China" \[UndirectedEdge] "India",
+     "China" \[UndirectedEdge] "Kazakhstan",
+     "China" \[UndirectedEdge] "Kyrgyzstan",
+     "China" \[UndirectedEdge] "Laos",
+     "China" \[UndirectedEdge] "Mongolia",
+     "China" \[UndirectedEdge] "Myanmar",
+     "China" \[UndirectedEdge] "Nepal",
+     "China" \[UndirectedEdge] "North Korea",
+     "China" \[UndirectedEdge] "Pakistan",
+     "China" \[UndirectedEdge] "Russia",
+     "China" \[UndirectedEdge] "Tajikistan",
+     "China" \[UndirectedEdge] "Vietnam"}
+    },
+   
+   {"Christmas Island",
+    {}
+    },
+   
+   {"Cocos (Keeling) Islands",
+    {}
+    },
+   
+   {"Colombia",
+    {"Colombia" \[UndirectedEdge] "Brazil",
+     "Colombia" \[UndirectedEdge] "Ecuador",
+     "Colombia" \[UndirectedEdge] "Panama",
+     "Colombia" \[UndirectedEdge] "Peru",
+     "Colombia" \[UndirectedEdge] "Venezuela"}
+    },
+   
+   {"Comoros",
+    {}
+    },
+   
+   {"Cook Islands",
+    {}
+    },
+   
+   {"Costa Rica",
+    {"Costa Rica" \[UndirectedEdge] "Nicaragua",
+     "Costa Rica" \[UndirectedEdge] "Panama"}
+    },
+   
+   {"Croatia",
+    {"Croatia" \[UndirectedEdge] "Bosnia and Herzegovina",
+     "Croatia" \[UndirectedEdge] "Hungary",
+     "Croatia" \[UndirectedEdge] "Montenegro",
+     "Croatia" \[UndirectedEdge] "Serbia",
+     "Croatia" \[UndirectedEdge] "Slovenia"}},
+   
+   {"Cuba",
+    {}
+    },
+   
+   {"Curacao",
+    {}
+    },
+   
+   {"Cyprus",
+    {}
+    },
+   
+   {"Czech Republic",
+    {"Czech Republic" \[UndirectedEdge] "Austria",
+     "Czech Republic" \[UndirectedEdge] "Germany",
+     "Czech Republic" \[UndirectedEdge] "Poland",
+     "Czech Republic" \[UndirectedEdge] "Slovakia"}
+    },
+   
+   {"Democratic Republic of the Congo", {"Democratic Republic of the \
+Congo" \[UndirectedEdge] "Angola", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] "Burundi", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] 
+      "Central African Republic", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] 
+      "Republic of the Congo", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] "Rwanda", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] 
+      "South Sudan", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] "Tanzania", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] "Uganda", 
+     "Democratic Republic of the Congo" \[UndirectedEdge] "Zambia"}
+    },
+   
+   {"Denmark",
+    {"Denmark" \[UndirectedEdge] "Germany"}
+    },
+   {"Djibouti",
+    {"Djibouti" \[UndirectedEdge] "Eritrea",
+     "Djibouti" \[UndirectedEdge] "Ethiopia",
+     "Djibouti" \[UndirectedEdge] "Somalia"}
+    },
+   
+   {"Ecuador",
+    {"Ecuador" \[UndirectedEdge] "Colombia",
+     "Ecuador" \[UndirectedEdge] "Peru"}
+    },
+   
+   {"Dominica",
+    {}
+    },
+   
+   {"Dominican Republic",
+    {"Dominican Republic" \[UndirectedEdge] "Haiti"}
+    },
+   
+   {"East Timor",
+    {"East Timor" \[UndirectedEdge] "Indonesia"}
+    },
+   
+   {"Egypt",
+    {"Egypt" \[UndirectedEdge] "Israel",
+     "Egypt" \[UndirectedEdge] "Libya",
+     "Egypt" \[UndirectedEdge] "Sudan"}
+    },
+   
+   {"El Salvador",
+    {"El Salvador" \[UndirectedEdge] "Guatemala",
+     "El Salvador" \[UndirectedEdge] "Honduras"}
+    },
+   
+   {"Equatorial Guinea",
+    {"Equatorial Guinea" \[UndirectedEdge] "Cameroon",
+     "Equatorial Guinea" \[UndirectedEdge] "Gabon"}
+    },
+   
+   {"Eritrea",
+    {"Eritrea" \[UndirectedEdge] "Djibouti",
+     "Eritrea" \[UndirectedEdge] "Ethiopia",
+     "Eritrea" \[UndirectedEdge] "Sudan"}
+    },
+   
+   {"Estonia",
+    {"Estonia" \[UndirectedEdge] "Latvia",
+     "Estonia" \[UndirectedEdge] "Russia"}
+    },
+   
+   {"Eswatini",
+    {"Eswatini" \[UndirectedEdge] "Mozambique",
+     "Eswatini" \[UndirectedEdge] "South Africa"}
+    },
+   
+   {"Ethiopia",
+    {"Ethiopia" \[UndirectedEdge] "Djibouti",
+     "Ethiopia" \[UndirectedEdge] "Eritrea",
+     "Ethiopia" \[UndirectedEdge] "Kenya",
+     "Ethiopia" \[UndirectedEdge] "Somalia",
+     "Ethiopia" \[UndirectedEdge] "South Sudan",
+     "Ethiopia" \[UndirectedEdge] "Sudan"}
+    },
+   
+   
+   {"Falkland Islands",
+    {}
+    },
+   
+   {"Faroe Islands",
+    {}
+    },
+   
+   {"Fiji",
+    {}
+    },
+   
+   {"Finland",
+    {"Finland" \[UndirectedEdge] "Norway",
+     "Finland" \[UndirectedEdge] "Sweden",
+     "Finland" \[UndirectedEdge] "Russia"}
+    },
+   
+   {"France",
+    {"France" \[UndirectedEdge] "Andorra",
+     "France" \[UndirectedEdge] "Belgium",
+     "France" \[UndirectedEdge] "Germany",
+     "France" \[UndirectedEdge] "Italy",
+     "France" \[UndirectedEdge] "Luxembourg",
+     "France" \[UndirectedEdge] "Monaco",
+     "France" \[UndirectedEdge] "Spain",
+     "France" \[UndirectedEdge] "Switzerland"}
+    },
+   
+   {"French Guiana",
+    {"French Guiana" \[UndirectedEdge] "Brazil",
+     "French Guiana" \[UndirectedEdge] "Suriname"}
+    },
+   
+   {"French Polynesia",
+    {}
+    },
+   
+   {"Gabon",
+    {"Gabon" \[UndirectedEdge] "Cameroon",
+     "Gabon" \[UndirectedEdge] "Equatorial Guinea",
+     "Gabon" \[UndirectedEdge] "Republic of the Congo"}
+    },
+   
+   {"Gambia",
+    {"Gambia" \[UndirectedEdge] "Senegal"}
+    },
+   
+   {"Gaza Strip",
+    {"Gaza Strip" \[UndirectedEdge] "Egypt",
+     "Gaza Strip" \[UndirectedEdge] "Israel"}
+    },
+   
+   {"Georgia",
+    {"Georgia" \[UndirectedEdge] "Armenia",
+     "Georgia" \[UndirectedEdge] "Azerbaijan",
+     "Georgia" \[UndirectedEdge] "Russia",
+     "Georgia" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Germany",
+    {"Germany" \[UndirectedEdge] "Austria",
+     "Germany" \[UndirectedEdge] "Belgium",
+     "Germany" \[UndirectedEdge] "Czech Republic",
+     "Germany" \[UndirectedEdge] "Denmark",
+     "Germany" \[UndirectedEdge] "France",
+     "Germany" \[UndirectedEdge] "Luxembourg",
+     "Germany" \[UndirectedEdge] "Netherlands",
+     "Germany" \[UndirectedEdge] "Poland",
+     "Germany" \[UndirectedEdge] "Switzerland"}
+    },
+   
+   {"Ghana",
+    {"Ghana" \[UndirectedEdge] "Burkina Faso",
+     "Ghana" \[UndirectedEdge] "Côte d'Ivoire",
+     "Ghana" \[UndirectedEdge] "Togo"}
+    },
+   
+   {"Gibraltar",
+    {"Gibraltar" \[UndirectedEdge] "Spain"}
+    },
+   
+   {"Greece",
+    {"Greece" \[UndirectedEdge] "Albania",
+     "Greece" \[UndirectedEdge] "Bulgaria",
+     "Greece" \[UndirectedEdge] "North Macedonia",
+     "Greece" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Greenland",
+    {}
+    },
+   
+   {"Grenada",
+    {}
+    },
+   
+   {"Guadeloupe",
+    {}
+    },
+   
+   {"Guam",
+    {}
+    },
+   
+   {"Guatemala",
+    {"Guatemala" \[UndirectedEdge] "Belize",
+     "Guatemala" \[UndirectedEdge] "El Salvador",
+     "Guatemala" \[UndirectedEdge] "Honduras",
+     "Guatemala" \[UndirectedEdge] "Mexico"}
+    },
+   
+   {"Guernsey",
+    {}
+    },
+   
+   {"Guinea",
+    {"Guinea" \[UndirectedEdge] "Côte d'Ivoire",
+     "Guinea" \[UndirectedEdge] "Guinea-Bissau",
+     "Guinea" \[UndirectedEdge] "Liberia",
+     "Guinea" \[UndirectedEdge] "Mali",
+     "Guinea" \[UndirectedEdge] "Senegal",
+     "Guinea" \[UndirectedEdge] "Sierra Leone"}
+    },
+   
+   {"Guinea-Bissau",
+    {"Guinea-Bissau" \[UndirectedEdge] "Guinea",
+     "Guinea-Bissau" \[UndirectedEdge] "Senegal"}
+    },
+   
+   {"Guyana",
+    {"Guyana" \[UndirectedEdge] "Brazil",
+     "Guyana" \[UndirectedEdge] "Suriname",
+     "Guyana" \[UndirectedEdge] "Venezuela"}
+    },
+   
+   {"Haiti",
+    {"Haiti" \[UndirectedEdge] "Dominican Republic"}
+    },
+   
+   {"Honduras",
+    {"Honduras" \[UndirectedEdge] "El Salvador",
+     "Honduras" \[UndirectedEdge] "Guatemala",
+     "Honduras" \[UndirectedEdge] "Nicaragua"}
+    },
+   
+   {"Hungary",
+    {"Hungary" \[UndirectedEdge] "Austria",
+     "Hungary" \[UndirectedEdge] "Croatia",
+     "Hungary" \[UndirectedEdge] "Romania",
+     "Hungary" \[UndirectedEdge] "Serbia",
+     "Hungary" \[UndirectedEdge] "Slovakia",
+     "Hungary" \[UndirectedEdge] "Slovenia",
+     "Hungary" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Iceland",
+    {}
+    },
+   
+   {"India",
+    {"India" \[UndirectedEdge] "Bangladesh",
+     "India" \[UndirectedEdge] "Bhutan",
+     "India" \[UndirectedEdge] "China",
+     "India" \[UndirectedEdge] "Myanmar",
+     "India" \[UndirectedEdge] "Nepal",
+     "India" \[UndirectedEdge] "Pakistan"}
+    },
+   
+   {"Indonesia",
+    {"Indonesia" \[UndirectedEdge] "East Timor",
+     "Indonesia" \[UndirectedEdge] "Malaysia",
+     "Indonesia" \[UndirectedEdge] "Papua New Guinea"}
+    },
+   
+   {"Iran",
+    {"Iran" \[UndirectedEdge] "Afghanistan",
+     "Iran" \[UndirectedEdge] "Armenia",
+     "Iran" \[UndirectedEdge] "Azerbaijan",
+     "Iran" \[UndirectedEdge] "Iraq",
+     "Iran" \[UndirectedEdge] "Pakistan",
+     "Iran" \[UndirectedEdge] "Turkey",
+     "Iran" \[UndirectedEdge] "Turkmenistan"}
+    },
+   
+   {"Iraq",
+    {"Iraq" \[UndirectedEdge] "Iran",
+     "Iraq" \[UndirectedEdge] "Jordan",
+     "Iraq" \[UndirectedEdge] "Kuwait",
+     "Iraq" \[UndirectedEdge] "Saudi Arabia",
+     "Iraq" \[UndirectedEdge] "Syria",
+     "Iraq" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Ireland",
+    {"Ireland" \[UndirectedEdge] "United Kingdom"}
+    },
+   
+   {"Isle of Man",
+    {}
+    },
+   
+   
+   {"Israel",
+    {"Israel" \[UndirectedEdge] "Egypt",
+     "Israel" \[UndirectedEdge] "Gaza Strip",
+     "Israel" \[UndirectedEdge] "Jordan",
+     "Israel" \[UndirectedEdge] "Lebanon",
+     "Israel" \[UndirectedEdge] "Syria",
+     "Israel" \[UndirectedEdge] "West Bank"}
+    },
+   
+   {"Italy",
+    {"Italy" \[UndirectedEdge] "Austria",
+     "Italy" \[UndirectedEdge] "France",
+     "Italy" \[UndirectedEdge] "San Marino",
+     "Italy" \[UndirectedEdge] "Slovenia",
+     "Italy" \[UndirectedEdge] "Switzerland",
+     "Italy" \[UndirectedEdge] "Vatican City"}
+    },
+   
+   {"Ivory Coast",
+    {"Ivory Coast" \[UndirectedEdge] "Burkina Faso",
+     "Ivory Coast" \[UndirectedEdge] "Ghana",
+     "Ivory Coast" \[UndirectedEdge] "Guinea",
+     "Ivory Coast" \[UndirectedEdge] "Liberia",
+     "Ivory Coast" \[UndirectedEdge] "Mali"}
+    },
+   
+   {"Jamaica",
+    {}
+    },
+   
+   {"Japan",
+    {}
+    },
+   
+   {"Jersey",
+    {}
+    },
+   
+   {"Jordan",
+    {"Jordan" \[UndirectedEdge] "Iraq",
+     "Jordan" \[UndirectedEdge] "Israel",
+     "Jordan" \[UndirectedEdge] "Saudi Arabia",
+     "Jordan" \[UndirectedEdge] "Syria",
+     "Jordan" \[UndirectedEdge] "West Bank"}
+    },
+   
+   {"Kazakhstan",
+    {"Kazakhstan" \[UndirectedEdge] "China",
+     "Kazakhstan" \[UndirectedEdge] "Kyrgyzstan",
+     "Kazakhstan" \[UndirectedEdge] "Russia",
+     "Kazakhstan" \[UndirectedEdge] "Turkmenistan",
+     "Kazakhstan" \[UndirectedEdge] "Uzbekistan"}
+    },
+   
+   {"Kenya",
+    {"Kenya" \[UndirectedEdge] "Ethiopia",
+     "Kenya" \[UndirectedEdge] "Somalia",
+     "Kenya" \[UndirectedEdge] "South Sudan",
+     "Kenya" \[UndirectedEdge] "Tanzania",
+     "Kenya" \[UndirectedEdge] "Uganda"}
+    },
+   
+   {"Kiribati",
+    {}
+    },
+   
+   {"Kosovo",
+    {"Kosovo" \[UndirectedEdge] "Albania",
+     "Kosovo" \[UndirectedEdge] "Montenegro",
+     "Kosovo" \[UndirectedEdge] "North Macedonia",
+     "Kosovo" \[UndirectedEdge] "Serbia"}
+    },
+   
+   {"Kuwait",
+    {"Kuwait" \[UndirectedEdge] "Iraq",
+     "Kuwait" \[UndirectedEdge] "Saudi Arabia"}
+    },
+   
+   {"Kyrgyzstan",
+    {"Kyrgyzstan" \[UndirectedEdge] "China",
+     "Kyrgyzstan" \[UndirectedEdge] "Kazakhstan",
+     "Kyrgyzstan" \[UndirectedEdge] "Tajikistan",
+     "Kyrgyzstan" \[UndirectedEdge] "Uzbekistan"}
+    },
+   
+   {"Laos",
+    {
+     "Laos" \[UndirectedEdge] "Cambodia",
+     "Laos" \[UndirectedEdge] "China",
+     "Laos" \[UndirectedEdge] "Myanmar",
+     "Laos" \[UndirectedEdge] "Thailand",
+     "Laos" \[UndirectedEdge] "Vietnam"
+     }
+    },
+   
+   {"Latvia",
+    {"Latvia" \[UndirectedEdge] "Belarus",
+     "Latvia" \[UndirectedEdge] "Estonia",
+     "Latvia" \[UndirectedEdge] "Lithuania",
+     "Latvia" \[UndirectedEdge] "Russia"}
+    },
+   
+   {"Lebanon",
+    {"Lebanon" \[UndirectedEdge] "Israel",
+     "Lebanon" \[UndirectedEdge] "Syria"}
+    },
+   
+   {"Lesotho",
+    {"Lesotho" \[UndirectedEdge] "South Africa"}
+    },
+   
+   {"Liberia",
+    {"Liberia" \[UndirectedEdge] "Guinea",
+     "Liberia" \[UndirectedEdge] "Ivory Coast",
+     "Liberia" \[UndirectedEdge] "Sierra Leone"}
+    },
+   
+   {"Libya",
+    {"Libya" \[UndirectedEdge] "Algeria",
+     "Libya" \[UndirectedEdge] "Chad",
+     "Libya" \[UndirectedEdge] "Egypt",
+     "Libya" \[UndirectedEdge] "Niger",
+     "Libya" \[UndirectedEdge] "Sudan",
+     "Libya" \[UndirectedEdge] "Tunisia"}
+    },
+   
+   {"Liechtenstein",
+    {"Liechtenstein" \[UndirectedEdge] "Austria",
+     "Liechtenstein" \[UndirectedEdge] "Switzerland"}
+    },
+   
+   {"Lithuania",
+    {"Lithuania" \[UndirectedEdge] "Belarus",
+     "Lithuania" \[UndirectedEdge] "Latvia",
+     "Lithuania" \[UndirectedEdge] "Poland",
+     "Lithuania" \[UndirectedEdge] "Russia"}
+    },
+   
+   {"Luxembourg",
+    {"Luxembourg" \[UndirectedEdge] "Belgium",
+     "Luxembourg" \[UndirectedEdge] "France",
+     "Luxembourg" \[UndirectedEdge] "Germany"}
+    },
+   
+   {"Madagascar",
+    {}
+    },
+   
+   {"Malawi",
+    {"Malawi" \[UndirectedEdge] "Mozambique",
+     "Malawi" \[UndirectedEdge] "Tanzania",
+     "Malawi" \[UndirectedEdge] "Zambia"}
+    },
+   
+   {"Malaysia",
+    {"Malaysia" \[UndirectedEdge] "Thailand",
+     "Malaysia" \[UndirectedEdge] "Indonesia",
+     "Malaysia" \[UndirectedEdge] "Brunei",
+     "Malaysia" \[UndirectedEdge] "Singapore"}
+    },
+   
+   {"Maldives",
+    {}
+    },
+   
+   {"Mali",
+    {"Mali" \[UndirectedEdge] "Algeria",
+     "Mali" \[UndirectedEdge] "Burkina Faso",
+     "Mali" \[UndirectedEdge] "Guinea",
+     "Mali" \[UndirectedEdge] "Ivory Coast",
+     "Mali" \[UndirectedEdge] "Mauritania",
+     "Mali" \[UndirectedEdge] "Niger",
+     "Mali" \[UndirectedEdge] "Senegal"}
+    },
+   
+   {"Malta",
+    {}
+    },
+   
+   {"Marshall Islands",
+    {}
+    },
+   
+   {"Martinique",
+    {}
+    },
+   
+   {"Mauritania",
+    {"Mauritania" \[UndirectedEdge] "Algeria",
+     "Mauritania" \[UndirectedEdge] "Mali",
+     "Mauritania" \[UndirectedEdge] "Senegal",
+     "Mauritania" \[UndirectedEdge] "Western Sahara"}
+    },
+   
+   {"Mauritius",
+    {}
+    },
+   
+   {"Mayotte",
+    {}
+    },
+   
+   {"Mexico",
+    {"Mexico" \[UndirectedEdge] "United States",
+     "Mexico" \[UndirectedEdge] "Guatemala",
+     "Mexico" \[UndirectedEdge] "Belize"}
+    },
+   
+   {"Micronesia",
+    {}
+    },
+   
+   {"Moldova",
+    {"Moldova" \[UndirectedEdge] "Romania",
+     "Moldova" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Monaco",
+    {"Monaco" \[UndirectedEdge] "France"}
+    },
+   
+   {"Mongolia",
+    {"Mongolia" \[UndirectedEdge] "China",
+     "Mongolia" \[UndirectedEdge] "Russia"}
+    },
+   
+   {"Montenegro",
+    {"Montenegro" \[UndirectedEdge] "Albania",
+     "Montenegro" \[UndirectedEdge] "Bosnia and Herzegovina",
+     "Montenegro" \[UndirectedEdge] "Croatia",
+     "Montenegro" \[UndirectedEdge] "Kosovo",
+     "Montenegro" \[UndirectedEdge] "Serbia"}
+    },
+   
+   {"Montserrat",
+    {}
+    },
+   
+   {"Morocco",
+    {"Morocco" \[UndirectedEdge] "Algeria",
+     "Morocco" \[UndirectedEdge] "Spain",
+     "Morocco" \[UndirectedEdge] "Western Sahara"}
+    },
+   
+   {"Mozambique",
+    {"Mozambique" \[UndirectedEdge] "Eswatini",
+     "Mozambique" \[UndirectedEdge] "Malawi",
+     "Mozambique" \[UndirectedEdge] "South Africa",
+     "Mozambique" \[UndirectedEdge] "Tanzania",
+     "Mozambique" \[UndirectedEdge] "Zambia",
+     "Mozambique" \[UndirectedEdge] "Zimbabwe"}
+    },
+   
+   {"Myanmar",
+    {"Myanmar" \[UndirectedEdge] "Bangladesh",
+     "Myanmar" \[UndirectedEdge] "China",
+     "Myanmar" \[UndirectedEdge] "India",
+     "Myanmar" \[UndirectedEdge] "Laos",
+     "Myanmar" \[UndirectedEdge] "Thailand"}
+    },
+   
+   
+   {"Namibia",
+    {"Namibia" \[UndirectedEdge] "Angola",
+     "Namibia" \[UndirectedEdge] "Botswana",
+     "Namibia" \[UndirectedEdge] "South Africa",
+     "Namibia" \[UndirectedEdge] "Zambia"}
+    },
+   
+   {"Nauru",
+    {}
+    },
+   
+   {"Nepal",
+    {"Nepal" \[UndirectedEdge] "China",
+     "Nepal" \[UndirectedEdge] "India"}
+    },
+   
+   {"Netherlands",
+    {"Netherlands" \[UndirectedEdge] "Belgium",
+     "Netherlands" \[UndirectedEdge] "Germany"}
+    },
+   
+   {"New Caledonia",
+    {}
+    },
+   
+   {"New Zealand",
+    {}
+    },
+   
+   {"Nicaragua",
+    {"Nicaragua" \[UndirectedEdge] "Costa Rica",
+     "Nicaragua" \[UndirectedEdge] "Honduras"}
+    },
+   
+   {"Niger",
+    {"Niger" \[UndirectedEdge] "Algeria",
+     "Niger" \[UndirectedEdge] "Benin",
+     "Niger" \[UndirectedEdge] "Burkina Faso",
+     "Niger" \[UndirectedEdge] "Chad",
+     "Niger" \[UndirectedEdge] "Libya",
+     "Niger" \[UndirectedEdge] "Mali",
+     "Niger" \[UndirectedEdge] "Nigeria"}
+    },
+   
+   {"Nigeria",
+    {"Nigeria" \[UndirectedEdge] "Benin",
+     "Nigeria" \[UndirectedEdge] "Cameroon",
+     "Nigeria" \[UndirectedEdge] "Chad",
+     "Nigeria" \[UndirectedEdge] "Niger"}
+    },
+   
+   {"Niue",
+    {}
+    },
+   
+   {"Norfolk Island",
+    {}
+    },
+   
+   {"Northern Mariana Islands",
+    {}
+    },
+   
+   {"North Korea",
+    {"North Korea" \[UndirectedEdge] "China",
+     "North Korea" \[UndirectedEdge] "Russia",
+     "North Korea" \[UndirectedEdge] "South Korea"}
+    },
+   
+   {"North Macedonia",
+    {"North Macedonia" \[UndirectedEdge] "Albania",
+     "North Macedonia" \[UndirectedEdge] "Bulgaria",
+     "North Macedonia" \[UndirectedEdge] "Greece",
+     "North Macedonia" \[UndirectedEdge] "Kosovo",
+     "North Macedonia" \[UndirectedEdge] "Serbia"}
+    },
+   
+   {"Norway",
+    {"Norway" \[UndirectedEdge] "Finland",
+     "Norway" \[UndirectedEdge] "Russia",
+     "Norway" \[UndirectedEdge] "Sweden"}
+    },
+   
+   {"Oman",
+    {"Oman" \[UndirectedEdge] "Saudi Arabia",
+     "Oman" \[UndirectedEdge] "United Arab Emirates",
+     "Oman" \[UndirectedEdge] "Yemen"}
+    },
+   
+   {"Pakistan",
+    {"Pakistan" \[UndirectedEdge] "Afghanistan",
+     "Pakistan" \[UndirectedEdge] "China",
+     "Pakistan" \[UndirectedEdge] "India",
+     "Pakistan" \[UndirectedEdge] "Iran"}
+    },
+   
+   {"Palau",
+    {}
+    },
+   
+   {"Panama",
+    {"Panama" \[UndirectedEdge] "Colombia",
+     "Panama" \[UndirectedEdge] "Costa Rica"}
+    },
+   
+   {"Papua New Guinea",
+    {"Papua New Guinea" \[UndirectedEdge] "Indonesia"}
+    },
+   
+   {"Paraguay",
+    {"Paraguay" \[UndirectedEdge] "Argentina",
+     "Paraguay" \[UndirectedEdge] "Bolivia",
+     "Paraguay" \[UndirectedEdge] "Brazil"}
+    },
+   
+   {"Peru",
+    {"Peru" \[UndirectedEdge] "Bolivia",
+     "Peru" \[UndirectedEdge] "Brazil",
+     "Peru" \[UndirectedEdge] "Chile",
+     "Peru" \[UndirectedEdge] "Colombia",
+     "Peru" \[UndirectedEdge] "Ecuador"}
+    },
+   
+   {"Philippines",
+    {}
+    },
+   
+   {"Pitcairn Islands",
+    {}
+    },
+   
+   {"Poland",
+    {"Poland" \[UndirectedEdge] "Belarus",
+     "Poland" \[UndirectedEdge] "Czech Republic",
+     "Poland" \[UndirectedEdge] "Germany",
+     "Poland" \[UndirectedEdge] "Lithuania",
+     "Poland" \[UndirectedEdge] "Russia",
+     "Poland" \[UndirectedEdge] "Slovakia",
+     "Poland" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Portugal",
+    {"Portugal" \[UndirectedEdge] "Spain"}
+    },
+   
+   {"Puerto Rico",
+    {}
+    },
+   
+   {"Qatar",
+    {"Qatar" \[UndirectedEdge] "Saudi Arabia"}
+    },
+   
+   {"Republic of the Congo",
+    {"Republic of the Congo" \[UndirectedEdge] "Angola",
+     "Republic of the Congo" \[UndirectedEdge] "Cameroon", 
+     "Republic of the Congo" \[UndirectedEdge] 
+      "Central African Republic", 
+     "Republic of the Congo" \[UndirectedEdge] 
+      "Democratic Republic of the Congo", 
+     "Republic of the Congo" \[UndirectedEdge] "Gabon"}
+    },
+   
+   {"Réunion",
+    {}
+    },
+   
+   {"Romania",
+    {"Romania" \[UndirectedEdge] "Bulgaria",
+     "Romania" \[UndirectedEdge] "Hungary",
+     "Romania" \[UndirectedEdge] "Moldova",
+     "Romania" \[UndirectedEdge] "Serbia",
+     "Romania" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Russia",
+    {"Russia" \[UndirectedEdge] "Azerbaijan",
+     "Russia" \[UndirectedEdge] "Belarus",
+     "Russia" \[UndirectedEdge] "China",
+     "Russia" \[UndirectedEdge] "Estonia",
+     "Russia" \[UndirectedEdge] "Finland",
+     "Russia" \[UndirectedEdge] "Georgia",
+     "Russia" \[UndirectedEdge] "Kazakhstan",
+     "Russia" \[UndirectedEdge] "Latvia",
+     "Russia" \[UndirectedEdge] "Lithuania",
+     "Russia" \[UndirectedEdge] "Mongolia",
+     "Russia" \[UndirectedEdge] "North Korea",
+     "Russia" \[UndirectedEdge] "Norway",
+     "Russia" \[UndirectedEdge] "Poland",
+     "Russia" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Rwanda",
+    {"Rwanda" \[UndirectedEdge] "Burundi",
+     "Rwanda" \[UndirectedEdge] "Democratic Republic of the Congo",
+     "Rwanda" \[UndirectedEdge] "Tanzania",
+     "Rwanda" \[UndirectedEdge] "Uganda"}
+    },
+   
+   {"Saint Helena, Ascension and Tristan da Cunha",
+    {}
+    },
+   
+   {"Saint Kitts and Nevis",
+    {}
+    },
+   
+   {"Saint Lucia",
+    {}
+    },
+   
+   {"Saint Pierre and Miquelon",
+    {}
+    },
+   
+   {"Saint Vincent and the Grenadines",
+    {}
+    },
+   
+   {"Samoa",
+    {}
+    },
+   
+   {"San Marino",
+    {"San Marino" \[UndirectedEdge] "Italy"}
+    },
+   
+   {"São Tomé and Príncipe",
+    {}
+    },
+   
+   {"Saudi Arabia",
+    {"Saudi Arabia" \[UndirectedEdge] "Iraq",
+     "Saudi Arabia" \[UndirectedEdge] "Jordan",
+     "Saudi Arabia" \[UndirectedEdge] "Kuwait",
+     "Saudi Arabia" \[UndirectedEdge] "Oman",
+     "Saudi Arabia" \[UndirectedEdge] "Qatar",
+     "Saudi Arabia" \[UndirectedEdge] "United Arab Emirates",
+     "Saudi Arabia" \[UndirectedEdge] "Yemen"}
+    },
+   
+   {"Senegal",
+    {"Senegal" \[UndirectedEdge] "Gambia",
+     "Senegal" \[UndirectedEdge] "Guinea",
+     "Senegal" \[UndirectedEdge] "Guinea-Bissau",
+     "Senegal" \[UndirectedEdge] "Mali",
+     "Senegal" \[UndirectedEdge] "Mauritania"}
+    },
+   
+   {"Serbia",
+    {"Serbia" \[UndirectedEdge] "Bosnia and Herzegovina",
+     "Serbia" \[UndirectedEdge] "Bulgaria",
+     "Serbia" \[UndirectedEdge] "Croatia",
+     "Serbia" \[UndirectedEdge] "Hungary",
+     "Serbia" \[UndirectedEdge] "Kosovo",
+     "Serbia" \[UndirectedEdge] "Montenegro",
+     "Serbia" \[UndirectedEdge] "North Macedonia",
+     "Serbia" \[UndirectedEdge] "Romania"}
+    },
+   
+   {"Seychelles",
+    {}
+    },
+   
+   {"Sierra Leone",
+    {"Sierra Leone" \[UndirectedEdge] "Guinea",
+     "Sierra Leone" \[UndirectedEdge] "Liberia"}
+    },
+   
+   {"Singapore",
+    {"Singapore" \[UndirectedEdge] "Malaysia"}
+    },
+   
+   {"Sint Maarten",
+    {"Sint Maarten" \[UndirectedEdge] "Saint Martin"}
+    },
+   
+   {"Slovakia",
+    {"Slovakia" \[UndirectedEdge] "Austria",
+     "Slovakia" \[UndirectedEdge] "Czech Republic",
+     "Slovakia" \[UndirectedEdge] "Hungary",
+     "Slovakia" \[UndirectedEdge] "Poland",
+     "Slovakia" \[UndirectedEdge] "Ukraine"}
+    },
+   
+   {"Slovenia",
+    {"Slovenia" \[UndirectedEdge] "Austria",
+     "Slovenia" \[UndirectedEdge] "Croatia",
+     "Slovenia" \[UndirectedEdge] "Hungary",
+     "Slovenia" \[UndirectedEdge] "Italy"}
+    },
+   
+   {"Solomon Islands",
+    {}
+    },
+   
+   {"Somalia",
+    {"Somalia" \[UndirectedEdge] "Djibouti",
+     "Somalia" \[UndirectedEdge] "Ethiopia",
+     "Somalia" \[UndirectedEdge] "Kenya"}
+    },
+   
+   {"South Africa",
+    {"South Africa" \[UndirectedEdge] "Botswana",
+     "South Africa" \[UndirectedEdge] "Eswatini",
+     "South Africa" \[UndirectedEdge] "Lesotho",
+     "South Africa" \[UndirectedEdge] "Mozambique",
+     "South Africa" \[UndirectedEdge] "Namibia",
+     "South Africa" \[UndirectedEdge] "Zimbabwe"}
+    },
+   
+   {"South Korea",
+    {"South Korea" \[UndirectedEdge] "North Korea"}
+    },
+   
+   {"South Sudan",
+    {"South Sudan" \[UndirectedEdge] "Central African Republic", 
+     "South Sudan" \[UndirectedEdge] 
+      "Democratic Republic of the Congo",
+     "South Sudan" \[UndirectedEdge] "Ethiopia",
+     "South Sudan" \[UndirectedEdge] "Kenya",
+     "South Sudan" \[UndirectedEdge] "Sudan",
+     "South Sudan" \[UndirectedEdge] "Uganda"}
+    },
+   
+   {"Spain",
+    {"Spain" \[UndirectedEdge] "Andorra",
+     "Spain" \[UndirectedEdge] "France",
+     "Spain" \[UndirectedEdge] "Gibraltar",
+     "Spain" \[UndirectedEdge] "Morocco",
+     "Spain" \[UndirectedEdge] "Portugal"}
+    },
+   
+   {"Sri Lanka",
+    {}
+    },
+   
+   {"Sudan",
+    {"Sudan" \[UndirectedEdge] "Central African Republic",
+     "Sudan" \[UndirectedEdge] "Chad",
+     "Sudan" \[UndirectedEdge] "Egypt",
+     "Sudan" \[UndirectedEdge] "Eritrea",
+     "Sudan" \[UndirectedEdge] "Ethiopia",
+     "Sudan" \[UndirectedEdge] "Libya",
+     "Sudan" \[UndirectedEdge] "South Sudan"}
+    },
+   
+   {"Suriname",
+    {"Suriname" \[UndirectedEdge] "Brazil",
+     "Suriname" \[UndirectedEdge] "French Guiana",
+     "Suriname" \[UndirectedEdge] "Guyana"}
+    },
+   
+   {"Svalbard",
+    {}
+    },
+   
+   {"Sweden",
+    {"Sweden" \[UndirectedEdge] "Finland",
+     "Sweden" \[UndirectedEdge] "Norway"}
+    },
+   
+   {"Switzerland",
+    {"Switzerland" \[UndirectedEdge] "Austria",
+     "Switzerland" \[UndirectedEdge] "France",
+     "Switzerland" \[UndirectedEdge] "Germany",
+     "Switzerland" \[UndirectedEdge] "Italy",
+     "Switzerland" \[UndirectedEdge] "Liechtenstein"}
+    },
+   
+   {"Syria",
+    {"Syria" \[UndirectedEdge] "Iraq",
+     "Syria" \[UndirectedEdge] "Israel",
+     "Syria" \[UndirectedEdge] "Jordan",
+     "Syria" \[UndirectedEdge] "Lebanon",
+     "Syria" \[UndirectedEdge] "Turkey"}
+    },
+   
+   {"Tajikistan",
+    {"Tajikistan" \[UndirectedEdge] "Afghanistan",
+     "Tajikistan" \[UndirectedEdge] "China",
+     "Tajikistan" \[UndirectedEdge] "Kyrgyzstan",
+     "Tajikistan" \[UndirectedEdge] "Uzbekistan"}
+    },
+   
+   {"Tanzania",
+    {"Tanzania" \[UndirectedEdge] "Burundi",
+     "Tanzania" \[UndirectedEdge] "Democratic Republic of the Congo",
+     "Tanzania" \[UndirectedEdge] "Kenya",
+     "Tanzania" \[UndirectedEdge] "Malawi",
+     "Tanzania" \[UndirectedEdge] "Mozambique",
+     "Tanzania" \[UndirectedEdge] "Rwanda",
+     "Tanzania" \[UndirectedEdge] "Uganda",
+     "Tanzania" \[UndirectedEdge] "Zambia"}
+    },
+   
+   {"Thailand",
+    {
+     "Thailand" \[UndirectedEdge] "Cambodia",
+     "Thailand" \[UndirectedEdge] "Laos",
+     "Thailand" \[UndirectedEdge] "Malaysia",
+     "Thailand" \[UndirectedEdge] "Myanmar"
+     }
+    },
+   
+   {"Togo",
+    {"Togo" \[UndirectedEdge] "Benin",
+     "Togo" \[UndirectedEdge] "Burkina Faso",
+     "Togo" \[UndirectedEdge] "Ghana"}
+    },
+   
+   {"Tokelau",
+    {}
+    },
+   
+   {"Tonga",
+    {}
+    },
+   
+   {"Trinidad and Tobago",
+    {}
+    },
+   
+   {"Tunisia",
+    {"Tunisia" \[UndirectedEdge] "Algeria",
+     "Tunisia" \[UndirectedEdge] "Libya"}
+    },
+   
+   {"Turkey",
+    {"Turkey" \[UndirectedEdge] "Armenia",
+     "Turkey" \[UndirectedEdge] "Azerbaijan",
+     "Turkey" \[UndirectedEdge] "Bulgaria",
+     "Turkey" \[UndirectedEdge] "Georgia",
+     "Turkey" \[UndirectedEdge] "Greece",
+     "Turkey" \[UndirectedEdge] "Iran",
+     "Turkey" \[UndirectedEdge] "Iraq",
+     "Turkey" \[UndirectedEdge] "Syria"}
+    },
+   
+   {"Turkmenistan",
+    {"Turkmenistan" \[UndirectedEdge] "Afghanistan",
+     "Turkmenistan" \[UndirectedEdge] "Iran",
+     "Turkmenistan" \[UndirectedEdge] "Kazakhstan",
+     "Turkmenistan" \[UndirectedEdge] "Uzbekistan"}
+    },
+   
+   {"Turks and Caicos Islands",
+    {}
+    },
+   
+   {"Tuvalu",
+    {}
+    },
+   
+   {"Uganda",
+    {"Uganda" \[UndirectedEdge] "Democratic Republic of the Congo",
+     "Uganda" \[UndirectedEdge] "Kenya",
+     "Uganda" \[UndirectedEdge] "Rwanda",
+     "Uganda" \[UndirectedEdge] "South Sudan",
+     "Uganda" \[UndirectedEdge] "Tanzania"}
+    },
+   
+   {"Ukraine",
+    {"Ukraine" \[UndirectedEdge] "Belarus",
+     "Ukraine" \[UndirectedEdge] "Hungary",
+     "Ukraine" \[UndirectedEdge] "Moldova",
+     "Ukraine" \[UndirectedEdge] "Poland",
+     "Ukraine" \[UndirectedEdge] "Romania",
+     "Ukraine" \[UndirectedEdge] "Russia",
+     "Ukraine" \[UndirectedEdge] "Slovakia"}
+    },
+   
+   {"United Arab Emirates",
+    {"United Arab Emirates" \[UndirectedEdge] "Oman",
+     "United Arab Emirates" \[UndirectedEdge] "Saudi Arabia"}
+    },
+   
+   {"United Kingdom",
+    {"United Kingdom" \[UndirectedEdge] "Ireland"}
+    },
+   
+   
+   {"United States",
+    {"United States" \[UndirectedEdge] "Canada",
+     "United States" \[UndirectedEdge] "Mexico"}
+    },
+   
+   {"United States Virgin Islands",
+    {}
+    },
+   
+   {"Uruguay",
+    {"Uruguay" \[UndirectedEdge] "Argentina",
+     "Uruguay" \[UndirectedEdge] "Brazil"}
+    },
+   
+   {"Uzbekistan",
+    {"Uzbekistan" \[UndirectedEdge] "Afghanistan",
+     "Uzbekistan" \[UndirectedEdge] "Kazakhstan",
+     "Uzbekistan" \[UndirectedEdge] "Kyrgyzstan",
+     "Uzbekistan" \[UndirectedEdge] "Tajikistan",
+     "Uzbekistan" \[UndirectedEdge] "Turkmenistan"}
+    },
+   
+   {"Vanuatu",
+    {}
+    },
+   
+   {"Vatican City",
+    {"Vatican City" \[UndirectedEdge] "Italy"}
+    },
+   
+   {"Venezuela",
+    {"Venezuela" \[UndirectedEdge] "Brazil",
+     "Venezuela" \[UndirectedEdge] "Colombia",
+     "Venezuela" \[UndirectedEdge] "Guyana"}
+    },
+   
+   {"Vietnam",
+    {"Vietnam" \[UndirectedEdge] "Cambodia",
+     "Vietnam" \[UndirectedEdge] "China",
+     "Vietnam" \[UndirectedEdge] "Laos"}
+    },
+   
+   {"Wallis and Futuna Islands",
+    {}
+    },
+   
+   {"West Bank",
+    {"West Bank" \[UndirectedEdge] "Israel",
+     "West Bank" \[UndirectedEdge] "Jordan"}
+    },
+   
+   {"Western Sahara",
+    {"Western Sahara" \[UndirectedEdge] "Algeria",
+     "Western Sahara" \[UndirectedEdge] "Mauritania",
+     "Western Sahara" \[UndirectedEdge] "Morocco"}
+    },
+   
+   {"Yemen",
+    {"Yemen" \[UndirectedEdge] "Oman",
+     "Yemen" \[UndirectedEdge] "Saudi Arabia"}
+    },
+   
+   {"Zambia",
+    {"Zambia" \[UndirectedEdge] "Angola",
+     "Zambia" \[UndirectedEdge] "Botswana",
+     "Zambia" \[UndirectedEdge] "Democratic Republic of the Congo",
+     "Zambia" \[UndirectedEdge] "Malawi",
+     "Zambia" \[UndirectedEdge] "Mozambique",
+     "Zambia" \[UndirectedEdge] "Namibia",
+     "Zambia" \[UndirectedEdge] "Tanzania",
+     "Zambia" \[UndirectedEdge] "Zimbabwe"}
+    },
+   
+   {"Zimbabwe",
+    {"Zimbabwe" \[UndirectedEdge] "Botswana",
+     "Zimbabwe" \[UndirectedEdge] "Mozambique",
+     "Zimbabwe" \[UndirectedEdge] "South Africa",
+     "Zimbabwe" \[UndirectedEdge] "Zambia"}
+    }
+   
+   };
