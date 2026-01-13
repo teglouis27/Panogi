@@ -1,0 +1,64 @@
+MoroccanAdministrativeDivisionConnections =
+  
+  {
+   {"ChaouiaOuardigha", {"ChaouiaOuardigha" \[UndirectedEdge] 
+      "DoukkalaAbda", 
+     "ChaouiaOuardigha" \[UndirectedEdge] "GrandCasablanca", 
+     "ChaouiaOuardigha" \[UndirectedEdge] "RabatSaleZemmourZaer", 
+     "ChaouiaOuardigha" \[UndirectedEdge] 
+      "TadlaAzilal"}}, {"DoukkalaAbda", {"DoukkalaAbda" \
+\[UndirectedEdge] "ChaouiaOuardigha", 
+     "DoukkalaAbda" \[UndirectedEdge] "MarrakechTensiftAlHaouz", 
+     "DoukkalaAbda" \[UndirectedEdge] 
+      "TadlaAzilal"}}, {"FesBoulemane", {"FesBoulemane" \
+\[UndirectedEdge] "GharbChrardaBeniHssen", 
+     "FesBoulemane" \[UndirectedEdge] "MeknesTafilalet", 
+     "FesBoulemane" \[UndirectedEdge] 
+      "TazaAlHoceimaTaounate"}}, {"GharbChrardaBeniHssen", \
+{"GharbChrardaBeniHssen" \[UndirectedEdge] "FesBoulemane", 
+     "GharbChrardaBeniHssen" \[UndirectedEdge] "RabatSaleZemmourZaer",
+      "GharbChrardaBeniHssen" \[UndirectedEdge] 
+      "TangerTetouan"}}, {"GrandCasablanca", {"GrandCasablanca" \
+\[UndirectedEdge] "ChaouiaOuardigha", 
+     "GrandCasablanca" \[UndirectedEdge] 
+      "RabatSaleZemmourZaer"}}, {"GuelmimEsSemara", {"GuelmimEsSemara" \
+\[UndirectedEdge] "SoussMassaDraa", 
+     "GuelmimEsSemara" \[UndirectedEdge] 
+      "LaayouneBoujdourSakiaElHamra"}}, \
+{"LaayouneBoujdourSakiaElHamra", {"LaayouneBoujdourSakiaElHamra" \
+\[UndirectedEdge] "GuelmimEsSemara", 
+     "LaayouneBoujdourSakiaElHamra" \[UndirectedEdge] 
+      "SoussMassaDraa"}}, {"MarrakechTensiftAlHaouz", \
+{"MarrakechTensiftAlHaouz" \[UndirectedEdge] "DoukkalaAbda", 
+     "MarrakechTensiftAlHaouz" \[UndirectedEdge] "SoussMassaDraa", 
+     "MarrakechTensiftAlHaouz" \[UndirectedEdge] 
+      "TadlaAzilal"}}, {"MeknesTafilalet", {"MeknesTafilalet" \
+\[UndirectedEdge] "FesBoulemane", 
+     "MeknesTafilalet" \[UndirectedEdge] "Oriental", 
+     "MeknesTafilalet" \[UndirectedEdge] 
+      "TazaAlHoceimaTaounate"}}, {"Oriental", {"Oriental" \
+\[UndirectedEdge] "MeknesTafilalet", 
+     "Oriental" \[UndirectedEdge] 
+      "TazaAlHoceimaTaounate"}}, {"RabatSaleZemmourZaer", \
+{"RabatSaleZemmourZaer" \[UndirectedEdge] "ChaouiaOuardigha", 
+     "RabatSaleZemmourZaer" \[UndirectedEdge] "GharbChrardaBeniHssen",
+      "RabatSaleZemmourZaer" \[UndirectedEdge] "GrandCasablanca", 
+     "RabatSaleZemmourZaer" \[UndirectedEdge] 
+      "TangerTetouan"}}, {"SoussMassaDraa", {"SoussMassaDraa" \
+\[UndirectedEdge] "GuelmimEsSemara", 
+     "SoussMassaDraa" \[UndirectedEdge] "LaayouneBoujdourSakiaElHamra",
+      "SoussMassaDraa" \[UndirectedEdge] 
+      "MarrakechTensiftAlHaouz"}}, {"TadlaAzilal", {"TadlaAzilal" \
+\[UndirectedEdge] "ChaouiaOuardigha", 
+     "TadlaAzilal" \[UndirectedEdge] "DoukkalaAbda", 
+     "TadlaAzilal" \[UndirectedEdge] 
+      "MarrakechTensiftAlHaouz"}}, {"TangerTetouan", {"TangerTetouan" \
+\[UndirectedEdge] "GharbChrardaBeniHssen", 
+     "TangerTetouan" \[UndirectedEdge] "RabatSaleZemmourZaer", 
+     "TangerTetouan" \[UndirectedEdge] 
+      "TazaAlHoceimaTaounate"}}, {"TazaAlHoceimaTaounate", \
+{"TazaAlHoceimaTaounate" \[UndirectedEdge] "FesBoulemane", 
+     "TazaAlHoceimaTaounate" \[UndirectedEdge] "MeknesTafilalet", 
+     "TazaAlHoceimaTaounate" \[UndirectedEdge] "Oriental", 
+     "TazaAlHoceimaTaounate" \[UndirectedEdge] "TangerTetouan"}}
+   };
