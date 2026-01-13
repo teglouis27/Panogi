@@ -1,0 +1,14 @@
+canonicalUndirectedEdge[e_UndirectedEdge] := 
+  UndirectedEdge @@ Sort[List @@ e];
+
+edgesWithSelfLoops[stateConnections_] := 
+ Module[{edges, selfLoops}, 
+  edges = DeleteDuplicates@(canonicalUndirectedEdge /@ 
+      Flatten[stateConnections[[All, 2]]]);
+  selfLoops = 
+   Map[If[#[[2]] === {}, #[[1]] \[UndirectedEdge] #[[1]], Nothing] &, 
+    stateConnections];
+  Join[edges, selfLoops]]
+
+edges = edgesWithSelfLoops[MoroccanAdministrativeDivisionConnections];
+GraphPlot[edges, VertexLabels -> "Name", ImageSize -> 1000]
