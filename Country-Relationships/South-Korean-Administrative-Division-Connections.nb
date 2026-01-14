@@ -1,0 +1,66 @@
+SouthKoreanAdministrativeDivisionConnections = {{"ChejuDo", {}}, \
+{"ChollaBukto", {"ChollaBukto" \[UndirectedEdge] "ChollaNamdo", 
+     "ChollaBukto" \[UndirectedEdge] "ChungchongBukto", 
+     "ChollaBukto" \[UndirectedEdge] "ChungchongNamdo", 
+     "ChollaBukto" \[UndirectedEdge] "KyongsangBukto", 
+     "ChollaBukto" \[UndirectedEdge] 
+      "KyongsangNamdo"}}, {"ChollaNamdo", {"ChollaNamdo" \
+\[UndirectedEdge] "ChollaBukto", 
+     "ChollaNamdo" \[UndirectedEdge] "KyongsangNamdo", 
+     "ChollaNamdo" \[UndirectedEdge] 
+      "KwangjuGwangyoksi"}}, {"ChungchongBukto", {"ChungchongBukto" \
+\[UndirectedEdge] "KyonggiDo", 
+     "ChungchongBukto" \[UndirectedEdge] "KangwonDo", 
+     "ChungchongBukto" \[UndirectedEdge] "KyongsangBukto", 
+     "ChungchongBukto" \[UndirectedEdge] "ChollaBukto", 
+     "ChungchongBukto" \[UndirectedEdge] "ChungchongNamdo", 
+     "ChungchongBukto" \[UndirectedEdge] "Sejong", 
+     "ChungchongBukto" \[UndirectedEdge] 
+      "TaejonGwangyoksi"}}, {"ChungchongNamdo", {"ChungchongNamdo" \
+\[UndirectedEdge] "KyonggiDo", 
+     "ChungchongNamdo" \[UndirectedEdge] "ChungchongBukto", 
+     "ChungchongNamdo" \[UndirectedEdge] "Sejong", 
+     "ChungchongNamdo" \[UndirectedEdge] "TaejonGwangyoksi", 
+     "ChungchongNamdo" \[UndirectedEdge] 
+      "ChollaBukto"}}, {"InchonGwangyoksi", {"InchonGwangyoksi" \
+\[UndirectedEdge] 
+      "KyonggiDo"}}, {"KangwonDo", {"KangwonDo" \[UndirectedEdge] 
+      "KyonggiDo", "KangwonDo" \[UndirectedEdge] "ChungchongBukto", 
+     "KangwonDo" \[UndirectedEdge] 
+      "KyongsangBukto"}}, {"KwangjuGwangyoksi", {"KwangjuGwangyoksi" \
+\[UndirectedEdge] 
+      "ChollaNamdo"}}, {"KyonggiDo", {"KyonggiDo" \[UndirectedEdge] 
+      "Seoul", "KyonggiDo" \[UndirectedEdge] "InchonGwangyoksi", 
+     "KyonggiDo" \[UndirectedEdge] "KangwonDo", 
+     "KyonggiDo" \[UndirectedEdge] "ChungchongBukto", 
+     "KyonggiDo" \[UndirectedEdge] 
+      "ChungchongNamdo"}}, {"KyongsangBukto", {"KyongsangBukto" \
+\[UndirectedEdge] "KangwonDo", 
+     "KyongsangBukto" \[UndirectedEdge] "ChungchongBukto", 
+     "KyongsangBukto" \[UndirectedEdge] "ChollaBukto", 
+     "KyongsangBukto" \[UndirectedEdge] "TaeguGwangyoksi", 
+     "KyongsangBukto" \[UndirectedEdge] "KyongsangNamdo", 
+     "KyongsangBukto" \[UndirectedEdge] 
+      "UlsanGwangyoksi"}}, {"KyongsangNamdo", {"KyongsangNamdo" \
+\[UndirectedEdge] "ChollaBukto", 
+     "KyongsangNamdo" \[UndirectedEdge] "ChollaNamdo", 
+     "KyongsangNamdo" \[UndirectedEdge] "KyongsangBukto", 
+     "KyongsangNamdo" \[UndirectedEdge] "PusanGwangyoksi", 
+     "KyongsangNamdo" \[UndirectedEdge] 
+      "UlsanGwangyoksi"}}, {"PusanGwangyoksi", {"PusanGwangyoksi" \
+\[UndirectedEdge] "KyongsangNamdo", 
+     "PusanGwangyoksi" \[UndirectedEdge] 
+      "UlsanGwangyoksi"}}, {"Sejong", {"Sejong" \[UndirectedEdge] 
+      "ChungchongNamdo", "Sejong" \[UndirectedEdge] "ChungchongBukto",
+      "Sejong" \[UndirectedEdge] 
+      "TaejonGwangyoksi"}}, {"Seoul", {"Seoul" \[UndirectedEdge] 
+      "KyonggiDo"}}, {"TaeguGwangyoksi", {"TaeguGwangyoksi" \
+\[UndirectedEdge] 
+      "KyongsangBukto"}}, {"TaejonGwangyoksi", {"TaejonGwangyoksi" \
+\[UndirectedEdge] "Sejong", 
+     "TaejonGwangyoksi" \[UndirectedEdge] "ChungchongNamdo", 
+     "TaejonGwangyoksi" \[UndirectedEdge] 
+      "ChungchongBukto"}}, {"UlsanGwangyoksi", {"UlsanGwangyoksi" \
+\[UndirectedEdge] "KyongsangNamdo", 
+     "UlsanGwangyoksi" \[UndirectedEdge] "KyongsangBukto", 
+     "UlsanGwangyoksi" \[UndirectedEdge] "PusanGwangyoksi"}}};
